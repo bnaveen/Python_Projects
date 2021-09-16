@@ -1,0 +1,4 @@
+Learning Python
+To create a file in IDLE, go to File > New window (Shortcut: Ctrl+N)
+Write Python code & save with.py file extension.
+Go to Run> Run module (Shortcut:f5) & can see the output.
