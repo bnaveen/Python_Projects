@@ -1,4 +1,13 @@
 print("hello world")
 print("100")
 print("5//2")
-exit()
+x=4
+print(x)
+y=5
+x+y
+x/y
+z=x/y
+a=z+x+y
+x//y
+name="RAFIQUE"
+Name="Kranthi"
