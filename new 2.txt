@@ -27,4 +27,19 @@ Conditional Steps
 Repeated Steps
 Loops(repeated steps) have iteration variables that change each time through a loop.
 
+Sequential,Repeated,Conditional
+name=input('Enter file:')
+handle=open(name, 'r')
+counts=dict()
+to ask for a file name & opens the file.
+it creates a data structure called a dictionary.
+this is all sequential
+now the for is another form of loops,so this is going for a while.
+This is within a loop,we can even have two indents.
+That's another loop,so these are like repeated,and then it goes down to the next sequential bit.Then it does this
+Here's another loop that's going to run.Then here's a conditional that's going to run.
+When it's all done,we print out the last thing.
+This is of course the program that does,it figures out the most common word and prints that most common word out.
+So this is python short story.
+It reads some data,it reads the name of a file,it opens that file,it talks about how to make a histogram,and then it looks through for the most common word.  
  
