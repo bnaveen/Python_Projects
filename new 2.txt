@@ -2,3 +2,29 @@ Learning Python
 To create a file in IDLE, go to File > New window (Shortcut: Ctrl+N)
 Write Python code & save with.py file extension.
 Go to Run> Run module (Shortcut:f5) & can see the output.
+text editors:- Notepad++, Visual Studio
+
+x=2 Assignment Statement
+x=x+2 Assignment with expression
+print(x) Print statement
+Variable Operator Constant Reserved Word 
+
+Interactive Python is good for experiments and programs of 3-4 lines
+Program Steps or Program Flow
+Like a Recipe or installation instructions, a program is a sequence of steps to be done in order.
+Some steps are Conditional - they may be skipped.
+Sometimes a step or group of steps is to be Repeated.
+Sometimes we store a set of steps to be used over and over as needed several places throughout the program
+
+Sequential Steps
+When a program is running,it flows from one step to the next. As programmers, we set up "paths" for the program to follow.
+x=2
+print(x)
+x=x+2
+print(x)
+output : 2 4
+Conditional Steps
+Repeated Steps
+Loops(repeated steps) have iteration variables that change each time through a loop.
+
+ 
