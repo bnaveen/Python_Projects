@@ -59,6 +59,8 @@ Variables
 * You can change the contents of a variable in a later statement
 x=12.2    o/p: x 12.2
 y=14      o/p: y 14
-the assignment statement as having an arrow to it so this is not saying X for all time is the same as 12.2 wt it's saying is take 12 point to find a place find some memory in your computer there master python give it a label X we get to choose the X that's the variable part we choose it right and then stick 12 in it and then the same is true for 14 we will find in there another spot name it y and then put a 14 in there so think of this as an arrow every time you see that equality the assignment in an assignment statement now these variables hold one value so now if we have these three statem 
-
+the assignment statement as having an arrow to it so this is not saying X for all time is the same as 12.2 wt it's saying is take 12 point to find a place find some memory in your computer there master python give it a label X we get to choose the X that's the variable part we choose it right and then stick 12 in it and then the same is true for 14 we will find in there another spot name it y and then put a 14 in there so think of this as an arrow every time you see that equality the assignment in an assignment statement now these variables hold one value so now if we have these three statements these two and then   
+x=12.2     o/p: x 100 
+y=14       o/p: y 14
+x=100
 
