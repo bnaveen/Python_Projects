@@ -42,4 +42,23 @@ When it's all done,we print out the last thing.
 This is of course the program that does,it figures out the most common word and prints that most common word out.
 So this is python short story.
 It reads some data,it reads the name of a file,it opens that file,it talks about how to make a histogram,and then it looks through for the most common word.  
- 
+
+Chapter 2 :- Variables,Expressions, and Statements
+Constants
+* Fixed Values such as numbers,letters, and strings, are called "Constants" because their value does not change
+* Numeric Constants are as you expect
+String Constants use single quote(') or double quote (")
+eg:>>> print (123)
+output is 123
+>>> print(98.6)
+output is 98.6
+
+Variables
+* A Variable is a named place in the memory where a programmer can store data and later retrieve the data using the Variable "name"
+* Programmers get to choose the names of the variables
+* You can change the contents of a variable in a later statement
+x=12.2    o/p: x 12.2
+y=14      o/p: y 14
+the assignment statement as having an arrow to it so this is not saying X for all time is the same as 12.2 wt it's saying is take 12 point to find a place find some memory in your computer there master python give it a label X we get to choose the X that's the variable part we choose it right and then stick 12 in it and then the same is true for 14 we will find in there another spot name it y and then put a 14 in there so think of this as an arrow every time you see that equality the assignment in an assignment statement now these variables hold one value so now if we have these three statem 
+
+
