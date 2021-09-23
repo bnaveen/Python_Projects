@@ -74,3 +74,12 @@ Python Variable Name Rules
 There are some names now some rules for making variable names you can start with a letter or an underscore we tend not to as normal programmers use underscore we tend to reserve those four variables that we use to communicae with python itself so we're making up a variable we tend not to use underscore as a pre first character you can have letters and numbers and underscores after the first character and their case sensitive it is really a bad idea to use causes the only differentiator so in this case spam eggs spam23 and underscore meter alt or legit we would probably not use this one unless we were actually doing it because python told us to use that variable23 spam starts with the number pound sign starts and dot is not a legitimate variable character and spam capital spam and all cat spam are different but this is not something that you want to sort of  depend on too much so that's just the rule names we tend to start them with a letter and then use letters numbers and underscores               
 underscores other than the first character are generally pretty common and you'll see those used a lot
 
+Numeric Expressions
+Operator     Operation
+ +           Addition
+ -           Subtraction
+ *           Multiplication
+ /           Division
+ **          Power
+ %           Remainder
+ 
