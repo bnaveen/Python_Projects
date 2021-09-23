@@ -59,8 +59,17 @@ Variables
 * You can change the contents of a variable in a later statement
 x=12.2    o/p: x 12.2
 y=14      o/p: y 14
-the assignment statement as having an arrow to it so this is not saying X for all time is the same as 12.2 wt it's saying is take 12 point to find a place find some memory in your computer there master python give it a label X we get to choose the X that's the variable part we choose it right and then stick 12 in it and then the same is true for 14 we will find in there another spot name it y and then put a 14 in there so think of this as an arrow every time you see that equality the assignment in an assignment statement now these variables hold one value so now if we have these three statements these two and then   
+the assignment statement as having an arrow to it so this is not saying X for all time is the same as 12.2 wt it's saying is take 12 point to find a place find some memory in your computer there master python give it a label X we get to choose the X that's the variable part we choose it right and then stick 12 in it and then the same is true for 14 we will find in there another spot name it y and then put a 14 in there so think of this as an arrow every time you see that equality the assignment in an assignment statement now these variables hold one value so now if we have these three statements these two and then the third one executes it says put 100 into x bt that wipes out the old value of twelve point two and it rewrite it with a hunt with a hundred and so we can change the variables that's another reason that we call them variable     
 x=12.2     o/p: x 100 
 y=14       o/p: y 14
 x=100
 
+Python Variable Name Rules
+* Must start with a letter or underscore _
+* Must consist of letters,numbers, and underscores
+* Case Sensitive
+ Good:  spam   eggs  spam23    _speed
+ Bad:   23spam   #sign  var.12
+ Different: spam   spam   SPAM
+There are some names now some rules for making variable names you can start with a letter or an underscore we tend not to as normal programmers use underscore we tend to reserve those four variables that we use to communicae with python itself so we're making up a variable we tend not to use underscore as a pre first character you can have letters and numbers and underscores after the first character and their case sensitive it is really a bad idea to use causes the only differentiator so in this case spam eggs spam23 and underscore meter alt or legit we would probably not use this one unless we were actually doing it because python told us to use that variable23 spam starts with the number pound sign starts and dot is not a legitimate variable character and spam capital spam and all cat spam are different but this is not something that you want to sort of  depend on too much so that's just the rule names we tend to start them with a letter and then use letters numbers and underscores               
+underscores other than the first character are generally pretty common and you'll see those used a lot
