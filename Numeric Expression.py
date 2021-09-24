@@ -8,3 +8,4 @@ print(zz)
 jj = 23
 kk = jj % 5
 print(kk)
+print(4 ** 3)
