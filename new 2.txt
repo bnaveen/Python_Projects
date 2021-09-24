@@ -82,4 +82,10 @@ Operator     Operation
  /           Division
  **          Power
  %           Remainder
+
+Order of Evaluation
+When we string operators together- Python must know which one to do first
+This is called "Operator precedence"
+Which operator "takes precedence" over the others?
+x = 1 + 2 * 3 - 4 / 5 ** 6
  
