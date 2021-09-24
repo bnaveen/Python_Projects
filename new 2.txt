@@ -88,4 +88,13 @@ When we string operators together- Python must know which one to do first
 This is called "Operator precedence"
 Which operator "takes precedence" over the others?
 x = 1 + 2 * 3 - 4 / 5 ** 6
+
+Operator Precedence Rules
+Highest Precedence rule to lowest precedence rule:
+* Parentheses are always respected                    Parenthesis
+* Exponentiation (raise to a power)                     Power
+* Multiplication, Division, and Remainder              Multiplication
+* Addition and Subtraction                              Addition
+* Left to right                                         Left to Right
+
  
