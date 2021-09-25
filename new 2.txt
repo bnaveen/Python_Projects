@@ -104,4 +104,10 @@ Highest Precedence rule to lowest precedence rule:
 							Left to Right							       11
 o/p: 11.0
 
+Operator Precedence
+ Remember the rules top to bottom
+ When writing code - use parentheses
+ When writing code - keep mathematical expression simple enough that they are easy to understand
+ Break long series of mathematical operations up to make them more clear
+ 
  
