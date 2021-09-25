@@ -1,0 +1,75 @@
+ Chapter 2 :- Variables,Expressions, and Statements
+Constants
+* Fixed Values such as numbers,letters, and strings, are called "Constants" because their value does not change
+* Numeric Constants are as you expect
+String Constants use single quote(') or double quote (")
+eg:>>> print (123)
+output is 123
+>>> print(98.6)
+output is 98.6
+
+Variables
+* A Variable is a named place in the memory where a programmer can store data and later retrieve the data using the Variable "name"
+* Programmers get to choose the names of the variables
+* You can change the contents of a variable in a later statement
+x=12.2    o/p: x 12.2
+y=14      o/p: y 14
+the assignment statement as having an arrow to it so this is not saying X for all time is the same as 12.2 wt it's saying is take 12 point to find a place find some memory in your computer there master python give it a label X we get to choose the X that's the variable part we choose it right and then stick 12 in it and then the same is true for 14 we will find in there another spot name it y and then put a 14 in there so think of this as an arrow every time you see that equality the assignment in an assignment statement now these variables hold one value so now if we have these three statements these two and then the third one executes it says put 100 into x bt that wipes out the old value of twelve point two and it rewrite it with a hunt with a hundred and so we can change the variables that's another reason that we call them variable     
+x=12.2     o/p: x 100 
+y=14       o/p: y 14
+x=100
+
+Python Variable Name Rules
+* Must start with a letter or underscore _
+* Must consist of letters,numbers, and underscores
+* Case Sensitive
+ Good:  spam   eggs  spam23    _speed
+ Bad:   23spam   #sign  var.12
+ Different: spam   spam   SPAM
+There are some names now some rules for making variable names you can start with a letter or an underscore we tend not to as normal programmers use underscore we tend to reserve those four variables that we use to communicae with python itself so we're making up a variable we tend not to use underscore as a pre first character you can have letters and numbers and underscores after the first character and their case sensitive it is really a bad idea to use causes the only differentiator so in this case spam eggs spam23 and underscore meter alt or legit we would probably not use this one unless we were actually doing it because python told us to use that variable23 spam starts with the number pound sign starts and dot is not a legitimate variable character and spam capital spam and all cat spam are different but this is not something that you want to sort of  depend on too much so that's just the rule names we tend to start them with a letter and then use letters numbers and underscores               
+underscores other than the first character are generally pretty common and you'll see those used a lot
+
+Chapter 2 Expressions B
+Numeric Expressions
+Operator     Operation
+ +           Addition
+ -           Subtraction
+ *           Multiplication
+ /           Division
+ **          Power
+ %           Remainder
+
+Order of Evaluation
+When we string operators together- Python must know which one to do first
+This is called "Operator precedence"
+Which operator "takes precedence" over the others?
+x = 1 + 2 * 3 - 4 / 5 ** 6
+
+Operator Precedence Rules
+Highest Precedence rule to lowest precedence rule:
+* Parentheses are always respected                    Parenthesis
+* Exponentiation (raise to a power)                     Power
+* Multiplication, Division, and Remainder              Multiplication
+* Addition and Subtraction                              Addition
+* Left to right                                         Left to Right
+
+>>> x = 1 + 2 ** 3 / 4 * 5  Parenthesis                               1 + 2 ** 3 / 4 * 5
+>>> print(x)                  Power                                    1 + 8 / 4 * 5
+                            Multiplication                              1 + 2 * 5
+							Addition							         1 + 10
+							Left to Right							       11
+o/p: 11.0
+
+Operator Precedence
+ Remember the rules top to bottom
+ When writing code - use parentheses
+ When writing code - keep mathematical expression simple enough that they are easy to understand
+ Break long series of mathematical operations up to make them more clear
+
+What does " Type" Mean?
+In Python variables,literals, and constants have a "type"
+Python knows the difference between an integer number and a string
+For example "+" means "addition" if something is a number and "concatenate" if something is a string 
+                                                               concatenate = put together
+ 
+ 
