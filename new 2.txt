@@ -97,4 +97,11 @@ Highest Precedence rule to lowest precedence rule:
 * Addition and Subtraction                              Addition
 * Left to right                                         Left to Right
 
+>>> x = 1 + 2 ** 3 / 4 * 5                               1 + 2 ** 3 / 4 * 5
+>>> print(x)                                             1 + 8 / 4 * 5
+                                                         1 + 2 * 5
+														 1 + 10
+														 11
+o/p: 11.0
+
  
