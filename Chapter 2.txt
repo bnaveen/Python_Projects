@@ -71,5 +71,12 @@ In Python variables,literals, and constants have a "type"
 Python knows the difference between an integer number and a string
 For example "+" means "addition" if something is a number and "concatenate" if something is a string 
                                                                concatenate = put together
+Type Matters
+Python knows what "type" everything is
+Some operations are prohibited
+You cannot "add 1" to a string
+We can ask Python what type something is by using the type() function
+ 															   
+															   
  
  
