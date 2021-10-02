@@ -76,7 +76,14 @@ Python knows what "type" everything is
 Some operations are prohibited
 You cannot "add 1" to a string
 We can ask Python what type something is by using the type() function
- 															   
+ 	
+Several Types of Numbers
+Numbers have two main types
+Integers are whole numbers:
+-14,-2,0,1,100,401233
+Floating Point Numbers have decimal parts: -2.5,0.0,98.6,14.0
+There are other number types- they are variations on float and integer
+	
 															   
  
  
