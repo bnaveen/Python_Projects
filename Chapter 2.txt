@@ -87,7 +87,13 @@ There are other number types- they are variations on float and integer
 Type Conversions
 When you put an integer and floating point in an expression,the integer is implicitly converted to a float
 You can control this with the built-in functions int() and float()
-	
+
+Remainder *** TYPES PROGRAM HAS OCCURED ERROR SO IT TAKES TIME AND NOT EXECUTED AND NOT COMMITED.
+
+Integer Division
+Integer division produces a floating point result
+This was different in Python 2.x
+
 															   
  
  
