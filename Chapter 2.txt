@@ -107,6 +107,9 @@ Another thing we can do with variable just like the print function takes somethi
 Input is built-in function & we pass to it a prompt. A string of text that's going to be printed out for the user and then it stops and waits.So it says, who are you? and then right here it just sits.waiting for us to type something.so we type kranthi and then hit the enter key and then this text ends up in this variable.
 So this is an assignment statement that kranthi is the result of the input call, gets copied into the nam variable.
 it's evaluating an assignment statement. input('who are you?')
-															   
+		
+Converting User Input
+If we want to read a number from the user, we must convert it from a string to a number using a type conversion function
+Later we will deal with bad input data  		
  
  
