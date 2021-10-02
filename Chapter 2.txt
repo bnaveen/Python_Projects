@@ -94,7 +94,19 @@ Integer Division
 Integer division produces a floating point result
 This was different in Python 2.x
  That means Python 3's division is more predictable it works more like a calculator.
-
+ 
+ String Conversions
+ 
+ 
+ 
+ 
+ User Input
+ We can instruct Python to pause and read data from the user using the input() function
+The input() function returns a string
+Another thing we can do with variable just like the print function takes something. a list of things in this case a string comma a variable ('Welcome', nam) and then prints some output in the program. the opposite that is input actually input generally happens before output.
+Input is built-in function & we pass to it a prompt. A string of text that's going to be printed out for the user and then it stops and waits.So it says, who are you? and then right here it just sits.waiting for us to type something.so we type kranthi and then hit the enter key and then this text ends up in this variable.
+So this is an assignment statement that kranthi is the result of the input call, gets copied into the nam variable.
+it's evaluating an assignment statement. input('who are you?')
 															   
  
  
