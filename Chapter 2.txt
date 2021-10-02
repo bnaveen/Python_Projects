@@ -93,6 +93,7 @@ Remainder *** TYPES PROGRAM HAS OCCURED ERROR SO IT TAKES TIME AND NOT EXECUTED 
 Integer Division
 Integer division produces a floating point result
 This was different in Python 2.x
+ That means Python 3's division is more predictable it works more like a calculator.
 
 															   
  
