@@ -64,5 +64,9 @@ x = 3.9 * x * ( 1 - x)
 An assignment statement you have to really get it your head around the notion that it has this arrow nature and that it valuates this entire right hand side before we change the left-hand side & so you can think of this sort of as at time step 1 it does this and then a time step 2 it does the copy and that's how you can have something like X on both sides of assignment statement
 so if for example we have X and X has 0.6 in it X has 0.6 in it what happens is that at first it sort of ignores this part right here and evaluates the expression so it pulls 0.6 everywhere X appears it pulls 0.6 out starts running these calculations and then it has the new value after all the calculations are done then and only then is it going to put that back into X and so it sort of takes that and puts it back into X and then wipes out the old value at this point this has all been taken care of and it's been reduced down to the zero point nine three and so that is what's put in as the new value                       
 		X  0.6
- x = 3.9 * x * ( 1 - x )		
+ x = 3.9 * x * ( 1 - x )
+A variable is a memory location used to store a value(0.6)
+The right side is an expression.Once the expression is evaluated, the result is placed in (assigned to)x.
+A variable is a memory location used to store a value. The value stored in a variable can be updated by replacing the old value (0.6) with a new value (0.93).
+The right side is an expression.Once the expression is evaluated, the result is placed in (assigned to) the variable on the left side (i.e., X). 
  
