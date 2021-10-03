@@ -39,5 +39,17 @@ here's a bit of code with an assignment statement - assignment statements of mul
 	x1q3z9afd = 12.50
 	x1q3p9afd = x1q3z9ocd + x1q3z9afd
 	print(x1q3p9afd)
+it's hard though because you could any of those characters or long variables & they're random stuff it's not very friendly to anyone who might read your program now below looks a little friendly it's the same program because python just wants a correspondence you picked a you picked B & you pick C & it's really much easier for us to see what's going on & so this is in a way going from here to here is much friendlier but we can be even friendlier if we pick mnemonic variable names so this is below is not mnemonic this is short and convenient the above is long & inconvenient python is happy with any of these 
+	a = 35.0
+	b = 12.50
+	c = a * b
+	print(c)
+here on the other hand is another version of the exact same program & now you think to yourself
+	hours = 35.0
+	rate  = 12.50
+	pay   = hours * rate
+	print(pay)
+Whoever wrote this program is much is helping us greatly understand what's going on & that's good choosing variable names a python again all three of these are the same two python using variable names in a way that help your reader understand what's going on is a great thing the problem is the danger is if you read this & you think that somehow python understands payroll that if you name a variable hours that python knows what hours means the answer is python really doesn't care what you name the variable as long as what you name it you use it right & so you got to be careful & so you'll see.
+   	
 
  
