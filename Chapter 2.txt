@@ -2,7 +2,7 @@
 Constants
 * Fixed Values such as numbers,letters, and strings, are called "Constants" because their value does not change
 * Numeric Constants are as you expect
-String Constants use single quote(') or double quote (")
+* String Constants use single quote(') or double quote (")
 eg:>>> print (123)
 output is 123
 >>> print(98.6)
@@ -29,5 +29,15 @@ Python Variable Name Rules
 There are some names now some rules for making variable names you can start with a letter or an underscore we tend not to as normal programmers use underscore we tend to reserve those four variables that we use to communicae with python itself so we're making up a variable we tend not to use underscore as a pre first character you can have letters and numbers and underscores after the first character and their case sensitive it is really a bad idea to use causes the only differentiator so in this case spam eggs spam23 and underscore meter alt or legit we would probably not use this one unless we were actually doing it because python told us to use that variable23 spam starts with the number pound sign starts and dot is not a legitimate variable character and spam capital spam and all cat spam are different but this is not something that you want to sort of  depend on too much so that's just the rule names we tend to start them with a letter and then use letters numbers and underscores               
 underscores other than the first character are generally pretty common and you'll see those used a lot
 
+Mnemonic Variable Names
+Since we programmers are given a choice in how we choose our variable names, there is a bit of "best practice"
+We name variables to help us remember what we intend to store in them("mnemonic"="memory aid")
+This can confuse beginning students because well-named variables often "sound" so good that they must be keywords
+We're choosing variable names one of the things about variables we get to choose the name we get to choose the name X choose the name Y and so sometimes we like them short but sometimes we want them descriptive and the notion that of making variables descriptive is often confusing to beginning students sometimes it's really helpful to if you're gonna have a line of text and you main the variable line that's great because the next person reading your program says that must be the line of text where is it also can't become misleading that line the name of a variable somehow has meaning so sometimes we'll having seen variables & plural variables like friend and friends like his is plural does python know about singular and plural & the answer is no so sometimes we pick variables that make no sense sometimes we pick variables that make a lot of sense this is just something that you as a beginning programmer are going to have to understand that we can pick anything we want & you'll see i'll try to call attention this in the first few lectures as we go through so 
+here's a bit of code with an assignment statement - assignment statements of multiplication & a print statement & you can say what is this doing now python is perfectly happy with this code because it assigns it in there you have said please go give this as a label & then we assign two variables &  then we're carefully pulling these two variables back out multiplying them together & sticking them into yet another variable & then printing that variable out that seems like you know we can figure out what it is you just have to look really careful & a single character mistake & python is going to be you know pretty unhappy okay so that's one way to write this program.                           
+	x1q3z9ocd = 35.0
+	x1q3z9afd = 12.50
+	x1q3p9afd = x1q3z9ocd + x1q3z9afd
+	print(x1q3p9afd)
 
  
