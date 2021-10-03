@@ -58,5 +58,9 @@ Sentences or Lines
   Variable      Operator     Constant     Reserved Word
   
 	Assignment Statements
+We assign a value to a variable using the assignment statement (=)
+An assignment statement consists of an expression on the right-hand side and a variable to store the result
+x = 3.9 * x * ( 1 - x)	
+
 
  
