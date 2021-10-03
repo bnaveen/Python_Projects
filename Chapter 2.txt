@@ -115,13 +115,14 @@ So here's we have to read the floor that we are at in Europe, and then we're goi
 It's a three line program,but it's sort of the beginning of something that programs do.
 Comments in Python
 Anything after a # is ignored by python
+Comment is a way for you to put in a program file some text that's to be ignored by python or C.Whatever language we happens to be using.
+In python comments start with a pound sign. So what you could do is put a pound sign anywhere in a line, and then after the pound sign Python ignores everything after that pound sign it can be the first character.
 Why comment?
  Describe what is going to happen in a sequence of code
  Document who wrote the code or other ancillary information
  Turn off a line of code-perhaps temporarily
 Another element of most any programming language is what's called a comment.
-Comment is a way for you to put in a program file some text that's to be ignored by python or C.Whatever language we happens to be using.In python comments start with a pound sign. So what you could do is put a pound sign anywhere in a line, and then after the pound sign Python ignores everything after that pound sign it can be the first character.
-  
+
 		Summary
 Type
 Reserved words
