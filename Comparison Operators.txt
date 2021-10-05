@@ -35,7 +35,8 @@ So, if you're using something like TextWrangler, or Notepad, run around in the p
 
 Increase / maintain after if or for
 Decrease to indicate end of block
- So, here is a bit of code, it's got nested block. But it gives you the sense that you have to be very explicit when you're reading Python code, of whether the indent is the same between two lines, the same, increased, or decreased.  
-
+ So, here is a bit of code, it's got nested block. But it gives you the sense that you have to be very explicit when you're reading Python code, of whether the indent is the same between two lines, the same, increased, or decreased. Every time you increase it, you mean something, Every time you increase it, you mean something and literally, if it stays the same, you mean something, as well.
+So, if we take a look at this, here, We have a line, and the next line has the same indent. 
+This is an if, with a colon at the end, so we have to increase the indent, and now we're maintaining it.So,these two lines are part of that if, but now we have to de-indent it.So, whether you choose to de-indent this word, or this word, or whatever, where you do this de-indent affects the scope of how far this if statement lasts, right? it lasts up to, but not including, the line that's de-indented to the same level as the if. This is a de-indent, now, we have a blank line,       
 	
    
