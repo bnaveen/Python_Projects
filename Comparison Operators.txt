@@ -11,13 +11,26 @@ Comparison operators look at variables but do not change the variables
 	>           Greater than
 	!=          Not equal
 	Remember: "=" is used for assignment.
+  
   Indentation
 Increase indent indent after an if statement or for statement (after :)
 Maintain indent to indicate the scope of the block (which lines are affected by the if/for)
 Reduce indent back to the level of the if statement or for statement to indicate the end of the block
 Blank lines are ignored - they do not affect indentation 
 Comments on a line by themselves are ignored with regard to identation
+ So,identation is an essential part of Python. 
+ We use indentation in lots of programming languages, often to demarcate blocks, to show where blocks start and a stop. But in Python, it's syntactically correct, if you make an error, if your indentation is wrong, after an if, you must indent, and you maintain the indent as long as you want to, to be in that same if block. And then, when you're done with the if block, you can reduce the indent.
+In this rule of indenting, comment lines, and blank lines are completely ignored.
 
+Warning: Turn Off Tabs!!
+Atom automatically uses spaces for files with ".py" extension (nice!)
+Most text editors can turn tabs into spaces - make sure to enable this feature
+ Notepad++ : Settings -> Preferences -> Language Menu/Tab Settings
+ TextWrangler : TextWrangler -> Preferences -> Editor Defaults
+ Python cares a *lot* about how far a line is intended. If you mix tabs and spaces, you may get "indentation errors" even if everything looks fine 
+So, we're gonna tend to put four spaces. Four spaces ends up being the normal thing that we do. You'll see, all the code that I write has four spaces for each indent. If I go in twice, I use eight spaces. We have this instinct of wanting to hit the tab key to move in four spaces. Now, the problem is that it might look the same on your screen, a tab, and four spaces, might line up the same place, depending on how tabs are set. But Python can get confused by that, so we tend to avoid using actual tabs in files.
+So most programming text editors, like if you're using Notepad, or TextWrangler, there is a place to set the tabs, to say, "Don't put tabs in this document, "but every time I hit tab, move over four spaces."
+You hit a tab, but it's like space, space, space, space. The nice thing about Atom, and this is the text editor we tend to recommend in this class. A, because it works on Windows,Linux, and Mac, but also because it automatically sets this up. As soon as you save your file with .py extension, you can sort of hit the tab key with impunity, and everything works perfectly. But, the key thing here is that Python insists that you get this right, and if you don't get this right, you're going to get indentation errors. They're just another syntax error.      
 
 
 	
