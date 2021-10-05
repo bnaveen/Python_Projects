@@ -33,6 +33,9 @@ So most programming text editors, like if you're using Notepad, or TextWrangler,
 You hit a tab, but it's like space, space, space, space. The nice thing about Atom, and this is the text editor we tend to recommend in this class. A, because it works on Windows,Linux, and Mac, but also because it automatically sets this up. As soon as you save your file with .py extension, you can sort of hit the tab key with impunity, and everything works perfectly. But, the key thing here is that Python insists that you get this right, and if you don't get this right, you're going to get indentation errors. They're just another syntax error.
 So, if you're using something like TextWrangler, or Notepad, run around in the preferences, and you'll find something about expanding tabs, or maybe how many spaces each tab stop is supposed to be. So, you'd check these, and what this really is doing is telling your text editor, "Never put an actual tab "in a document, but somehow simulate "tab stops, using spaces."      
 
+Increase / maintain after if or for
+Decrease to indicate end of block
+ So, here is a bit of code, it's got nested block. But it gives you the sense that you have to be very explicit when you're reading Python code, of whether the indent is the same between two lines, the same, increased, or decreased.  
 
 	
    
