@@ -41,6 +41,7 @@ This is an if, with a colon at the end, so we have to increase the indent, and n
 And we have a for which we'll learn about, in the next chapter, which is a looping structure. Do a for, for runs this five times, it has a colon, and it also expects an indented block. Now, we have what's called a nested block, Where we have an if, and a colon, we go in some more. So this is like two indents, right? So,these are one indent, and these are two indents. This is a block,within a block, and then we de-indent. So that means this print is not part of the if statement, but is still part of the for statement. Then we de-indent again, and then that means this print is on the same level as that for statement. So, if you start thinking about this, you wanna be able to start thinking that these blocks are the start of the block, with the colon line, up to, but not including, this line that's been de-indented. So, the for goes this far, right? The for goes up to, but not including the line that's de-indented. The if goes up to, but not including the line that's de-indented. So, as you do this you'll sort of mentally start drawing these blocks, and pretty soon, you will start constructing them as blocks. It takes a while, but it doesn't take forever. 
   Think about begin/end blocks
 But in Python, unlike other languages, this is very important, and it matters, and you can have syntax errors if you get it wrong. 'Cause you're really communicating the shape and the structure of your code, using these indents, and de-indents.
-
+	Nested Decisions
+ We already saw a nested indent, 	
 	
    
