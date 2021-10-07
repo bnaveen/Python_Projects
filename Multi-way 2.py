@@ -1,4 +1,4 @@
-x = 100
+x = 18
 if x < 2 :
     print('Small')
 elif x < 10 :
