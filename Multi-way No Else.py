@@ -1,4 +1,4 @@
-x = 50
+x = 5
 if x < 2 :
     print('Small')
 elif x < 10 :
