@@ -1,4 +1,4 @@
-x = 50
+x = 6
 if x < 2 :
     print('Below 2')
 elif x < 20 :
