@@ -75,5 +75,11 @@ Python is actually one of the more elegant languages, even though, after a while
        Multi-way Puzzles
 the question is; Which will never print regardless of the value for x? are there, looking at the three lines or four lines of code; x equals something. Are there lines of code that will never execute regardless of the value for x? so, we come in here and if x is less than or equal to two it's gonna run this first thing. And if x is greater than or equal to two it's gonna run this. And if neither of those are true then it's gonna run this. Well, the weird thing is all numbers are either less than two or greater than or equal to two. I carefully constructed this to the point where it would never run this line of code. It is either gonna run this one, or run that one but it's not ever gonna run this one. So that one's like a weird disfunctional one that I constructed.
 This other one is a little different. If x is less than two; we do this. If x is less than 20; we do that. If x is less than 10; we do that. And if none of those are true;we do that. Well, the problem here is between x < 20 : and x < 10 : these two lines. The problem is if something less than 10, like six, for example; it's also less than 20. So, even though there might be values for which this is true; those also are gonna have this true. So, for something like six; it's gonna run here.And it's not even gonna look at this.That's the point. It doesn't even look at this (i.e elif x < 10:) And so that's; I could've made this more sensible if I would've moved this little block of code up to there. And so this is where the order in which you choose your questions; the way you put these elifs together;matters. Because, it doesn't look at all of them. It only looks as long as it can;as long as it sees falses,then it keeps on going to the next one. But as soon as it doesn't see a false,it doesn't continue.
-   
+  The try/ except Structure
+You surround a dangerous section of code with try and except
+If the code in the try works-the except is skipped
+If the code in the try fails-it jumps to the except section
+ So the last conditional structure is the try and except structure. 
+ If you know any other languages like C plus plus, or java, or Javascript; you're like; whoa, that's an advanced concept.
+ But it turns out in Python, because of Python's propensity to throw tracebacks in situations where you would like to recover;
            	
